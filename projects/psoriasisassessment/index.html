@@ -84,7 +84,8 @@
   </header>
 
   <article class="post-content Psoriasis Assessment clearfix">
-    <p>The goal of this app is to track nutritional content of what the user consumes with a simple snap of the food item. Using Computer Vision &amp; Machine Learning techniques, the app processes the image of a food item, retrieves nutritional content and also suggests recipes based on the user’s daily calorie limit goal.</p>
+    <p>The goal of this Graphical User Interface was to automate the computer-assisted diagnosis of Psoriasis skin disease using Computer Vision Algorithms. The functionalities included in the application was Severity Detection, Diseased Region Segmentation, Histopathalogy Image Segmentation and Munro's microabscess detection. The severity detection module gave the severity of the disease on three fronts erythema (redness), induration (swelling) and scaling (development of scaly structures) on the diseased region on a scale of 1 to 5. The segmentation was aimed at segmenting the diseased region of the image to detect whether the disease has spread to a greater are or it's severity has decreased. The Munro's microabscess detection detected the presence of neutrophils in the stratum corneum of the epidermis.</p>
+    <p>We finetuned ResNet50 and MobileNet to perform the severity analysis. We used the very powerful U-Net architecture for segmentation since we had a limited number of training images. We used a capsule network to detect the presence of neutrophils for Munro's microabscess detection.</p>
 
 <p align="center">
     <a class="button" href="https://youtu.be/eZEE8cBW6Oc" target="_blank">View Demo Video</a>
