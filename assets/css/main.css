@@ -404,7 +404,7 @@ footer a:hover { color: #B509AC; }
 
 .publications h2 { color: #B509AC; font-size: 32px; margin-bottom: 30px; text-align: center; }
 
-.year { border-top: 1px solid #ccc; color: #ccc; margin: 0 -3em -2.5ex -2em; padding-top: 1ex; text-align: right; }
+.year { border-top: 1px solid #ccc; color: #666; margin: 0 -3em -2.5ex -2em; padding-top: 1ex; text-align: right; }
 
 .bibliography { margin-bottom: 50px; margin-top: 20px; list-style-type: circle; }
 .bibliography li { margin: 10px 0; position: relative; }
