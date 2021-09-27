@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Sounak Ray | projects </title>
+  <title>Sounak Ray | Foodify href = "/" </title>
   <meta name="description" content="Personal website of Sounak Ray">
 
-  <link rel="shortcut icon" href="/assets/img/sounak_img.jpeg">
+  <link rel="shortcut icon" href="/assets/img/sounak_image.jpeg">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/projects/">
+  <link rel="canonical" href="/projects/psoriasisassessment/">
 </head>
 
 
@@ -35,8 +35,12 @@
         <!-- About -->
         <a class="page-link" href="/">about</a>
 
+        <!-- CV -->
+        <!--<a class="page-link" target="_blank" href="/assets/documents/MayankSaxena-CV.pdf">cv</a>-->
+
         <!-- Resume -->
-        <a class="page-link" target="_blank" href="/assets/documents/Sounak_Resume_Columbia_Latest.pdf">resume</a>
+        <!--<a class="page-link" target="_blank" href="/assets/documents/MayankSaxena-Resume.pdf">resume</a>-->
+
         <!-- Pages -->
         
           
@@ -75,57 +79,28 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">projects</h1>
-    <h5 class="post-description"></h5>
+    <h1 class="post-title">Psoriasis Assessment</h1>
+    <h5 class="post-description">Using Computer Vision for Psoriasis Assessment.</h5>
+    <h5 class="post-description"><em>Indian Statistical Institute, Kolkata (May 2018 - July 2018)</em></h5>
   </header>
 
-  <article class="post-content projects clearfix">
-    
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/psoriasisassessment/">
-        
-        <img class="thumbnail" src="/assets/img/projects/psoriasisassessment/psoriasisassessment.jpg" />
-            
-        <span>
-            <h1>Psoriasis Assessment</h1>
-            <br />
-            <p>Using Computer Vision for Psoriasis Assessment.</p>
-        </span>
-        </a>
-    </div>
-</div>
+  <article class="post-content Psoriasis Assessment clearfix">
+    <p>The goal of this Graphical User Interface is to automate the computer-assisted diagnosis of Psoriasis skin disease using Computer Vision. 
+      The functionalities included in the application is Severity Detection, Diseased Region Segmentation, Histopathology Image Segmentation and Munro's microabscess detection. 
+      Through severity detection we can predict the severity of the disease on three fronts : erythema (redness), induration (swelling) and scaling (development of scaly structures) on the diseased region on a scale of 1 to 5. 
+      The diseased region segmentation was aimed at segmenting the diseased region of the skin to detect whether the disease has spread to a greater area or it's severity has decreased. 
+      The Munro's microabscess detection detected the presence of neutrophils in the stratum corneum of the epidermis. An excess of neutrophils in the stratum corneum denotes that the person has Psoriasis.</p>
+    <p>We finetuned ResNet50 and MobileNet to perform the severity analysis through image classification. We used the very powerful U-Net architecture for segmentation since we had a limited number of training images. We used a capsule network to detect the presence of neutrophils for Munro's microabscess detection.</p>
 
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/onlinewriteridentification/">
-        
-        <img class="thumbnail" src="/assets/img/projects/onlinewriteridentification/onlinewriteridentification.jpg" />
-            
-        <span>
-            <h1>Online Writer Identification</h1>
-            <br />
-            <p>Using Machine Learning for Writer Identification.</p>
-        </span>
-        </a>
-    </div>
-</div>
+<p align="center">
+    <a class="button" href="https://youtu.be/eZEE8cBW6Oc" target="_blank">View Demo Video</a>
+    <a class="button" href="https://github.com/SounakRay1997/PsoriasisAssessment" target="_blank">View Code</a>
+</p>
 
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/covidvaccinedatabase/">
-        
-        <img class="thumbnail" src="/assets/img/projects/covidvaccinedatabase/covidvaccinedatabase.jpg" />
-            
-        <span>
-            <h1>Residents Covid Vaccine Database</h1>
-            <br />
-            <p>Developed a portal to track vaccination status of residents.</p>
-        </span>
-        </a>
-    </div>
+<div class="img_true">
+    <img class="col three" src="/assets/img/projects/psoriasisassessment/psoriasisassessment.jpg" alt="" title="Psoriasis Assessment" />
+    <div class="caption">A screenshot of the Graphical User Interface. The full demonstration of the Graphical User Interface can be seen in the demonstration video.</div>
 </div>
-
 
   </article>
 
